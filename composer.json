@@ -1,0 +1,17 @@
+{
+    "name": "jembys/helpers",
+    "description": "a short package that provides useful helper functions",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jembys\\JembysServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Jembys\\": "src/"
+        }
+    }
+}
